@@ -1,0 +1,27 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section]
+;   param=value
+;   
+; Sections can be ordered arbitrarily and parameters within them can be in any order.
+
+config_version=5
+
+_global_script_classes=[]
+_global_script_class_icons={}
+
+[application]
+config/name="Farm Adventure"
+run/main_scene="res://scenes/main_menu.tscn"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+
+[rendering]
+quality/driver/driver_name="GLES3"
